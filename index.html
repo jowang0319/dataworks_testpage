@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>数据工场</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" //>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+   		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container-fluid" id='container_custom'>
+<!-- 		标题与导航栏        -->
+			<div class="row" id='main_title'>
+				<div class="col-md-12">
+					<img src="img/logo_title2.png" class='title_img'>
+					<div id='sticky'>
+						<ul class="nav nav-tabs">
+							<li class="large">
+								<a href="index.html">数据工场</a>
+							</li>
+							<li class="large">
+								<a href="project.html">作品一览</a>
+							</li>
+							<li  class="large">
+								<a href="event.html">过往活动</a>
+							</li>
+							<li class="large">
+								<a href="service.html">主要业务</a>
+							</li>
+							<li class="large">
+								<a href="aboutus.html">关于我们</a>
+							</li>
+							<li class="small">
+								<button class="w3-button w3-teal w3-xlarge" onclick="openNav()">&#9776;</button>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+<!-- 		end of 标题与导航栏        -->
+
+<!-- 手机sidebar -->
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a class='active' href="index.html">数据工场</a>
+			  <a href="project.html">作品一览</a>
+			  <a href="event.html">过往活动</a>
+			  <a href="service.html">主要业务</a>
+			  <a href="aboutus.html">关于我们</a>
+			</div>
+<!-- end of 手机sidebar -->
+
+<!-- 		50%宽度正文内容        -->
+			<div class='content-container'>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-8 col-sm-8">
+<!-- 								<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"> -->
+								<h3>
+									我们做数据，但我们做的不仅仅是数据。
+								</h3>
+								<p>
+									“大数据”是当下炙手可热的词汇，它仿佛无处不在，从网络上、生活中，我们不停地接触到这个词语。可是什么才是所谓的大数据？它对我们能造成什么样的影响呢？
+									<br>我们的团队从这一点入手，致力于将这个抽象的概念实体化，将复杂的数据简单化、可视化地呈现到大家面前。让数据不再是一串代码或跳动的数字这样遥不可及的概念，而是实实在在地被运用到日常生活中。
+									<h3>“深刻但不深奥，高端而且美观。”</h3>
+									我们用数据来传递信息、阐述故事，以期从源头上改变我们的思考方式，去除繁琐，留下精髓——为信息传递打开全新的纪元。
+								</p>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<img class='full_width_img' src="http://lorempixel.com/140/140/">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 with_divider" id='panel_2'>
+						<p id='main_quote'>
+							数据可视化最重要的元素是什么？
+    						<br>是A.数据本身，B.简单易懂，C.美观为上还是D.交流互动？
+    						<br>这个问题恐怕会让许多人难以抉择。正因为有这样的疑惑，数据工场诞生了。
+   							<br>数据工场为大家提供第五个选项 E.综上所有。
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" id='panel_2'>
+						<h3>
+							我们的——
+						</h3><br>
+						<div class="row">
+							<div class='col-md-3  col-sm-3 col-xs-6'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
+							<div class='col-md-3  col-sm-3 col-xs-6'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
+							<div class='col-md-3  col-sm-3 col-xs-6'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
+							<div class='col-md-3  col-sm-3 col-xs-6'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- 		end of 50%宽度正文内容        -->
+<!-- 		最下方copyright内容        -->
+			<div class="row" >
+				<div class="col-md-12" id='bottom'>
+					<p> 
+						<a href='#sticky'><span class='special_p'>返回顶部</span></a>
+						<br>
+						联系我们<br>
+						地址 | 电话 | 邮箱
+					</p>
+					<p id='copyright'>
+						All rights reserved. Copyright 2017</p>
+				</div>
+			</div>
+<!-- 		end of 最下方copyright内容        -->
+		</div>
+	</body>
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<!--     <script src="js/scripts.js"></script> -->
+	<script src="js/sidebar.js"></script>
+</html>
