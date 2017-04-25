@@ -238,6 +238,20 @@
 		float:right;
 	}
 
+	button.nav_button{
+		background-color: none;
+		border:0px;
+	}
+
+	div#bottom a{
+		color:#C69C6C;
+	}
+
+	p#copyright{
+		color:lightgrey;
+		opacity:0.5;
+	}
+
 
 }
 
@@ -279,6 +293,10 @@
 	h3.project_title_text{
 	    top: 50px; 
 	    font-size: 25px;
+	}
+
+	h3{
+		font-size:18px;
 	}
 
 	.timeline .line {
@@ -342,6 +360,10 @@
 	    right: 25px;
 	    font-size: 36px;
 	    margin-left: 50px;
+	}
+
+	div#bottom{
+		padding-top: 25%;
 	}
 
 
@@ -465,6 +487,10 @@
 		margin:auto;
 	}
 
+	div#bottom{
+		padding-top: 10%;
+	}
+
 
 }
 
@@ -539,13 +565,8 @@
 		margin-top: -10px;
 	}
 
-	p#copyright{
-		color:lightgrey;
-		opacity:0.5;
-	}
+	
 
-	div#bottom a{
-		color:#C69C6C;
-	}
+	
 
 }
