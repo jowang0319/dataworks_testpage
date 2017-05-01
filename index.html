@@ -14,11 +14,11 @@
 		<div class="container-fluid" id='container_custom'>
 <!-- 		标题与导航栏        -->
 			<div class="row" id='main_title'>
-				<div class="col-md-12">
+				<div class="col-md-12" id='top_nav'>
 					<img src="img/logo_title2.png" class='title_img'>
 					<div id='sticky'>
 						<ul class="nav nav-tabs">
-							<li class="large">
+							<li class="large active_nav">
 								<a href="index.html">数据工场</a>
 							</li>
 							<li class="large">
@@ -34,11 +34,15 @@
 								<a href="aboutus.html">关于我们</a>
 							</li>
 							<li class="small">
-								<button onclick="openNav()">&#9776;</button>
+								<button class='nav_button' onclick="openNav()">&#9776;</button>
 							</li>
 						</ul>
 
 					</div>
+				</div>
+				<div class="col-md-12" id='main_pic'>
+					<h2 class='js_title black'>数据&#160&#160&#160&#160&#160&#160 &#160&#160&#160
+					<br> &#160&#160&#160&#160&#160&#160&#160连接生活</h2>
 				</div>
 			</div>
 <!-- 		end of 标题与导航栏        -->
@@ -67,12 +71,13 @@
 								<p>
 									“大数据”是当下炙手可热的词汇，它仿佛无处不在，从网络上、生活中，我们不停地接触到这个词语。可是什么才是所谓的大数据？它对我们能造成什么样的影响呢？
 									<br>我们的团队从这一点入手，致力于将这个抽象的概念实体化，将复杂的数据简单化、可视化地呈现到大家面前。让数据不再是一串代码或跳动的数字这样遥不可及的概念，而是实实在在地被运用到日常生活中。
+
 									<h3>“深刻但不深奥，高端而且美观。”</h3>
 									我们用数据来传递信息、阐述故事，以期从源头上改变我们的思考方式，去除繁琐，留下精髓——为信息传递打开全新的纪元。
 								</p>
 							</div>
 							<div class="col-md-4 col-sm-4">
-								<img class='full_width_img' src="http://lorempixel.com/140/140/">
+								<img class='full_width_img' src="img/pic1.jpg">
 							</div>
 						</div>
 					</div>
@@ -122,6 +127,6 @@
 
 	<script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-<!--     <script src="js/scripts.js"></script> -->
+    <script src="js/scripts.js"></script>
 	<script src="js/sidebar.js"></script>
 </html>

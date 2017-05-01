@@ -14,14 +14,14 @@
 		<div class="container-fluid" id='container_custom'>
 <!-- 		标题与导航栏        -->
 			<div class="row" id='main_title'>
-				<div class="col-md-12">
+				<div class="col-md-12" id='top_nav'>
 					<img src="img/logo_title2.png" class='title_img'>
 					<div id='sticky'>
 						<ul class="nav nav-tabs">
 							<li class="large">
 								<a href="index.html">数据工场</a>
 							</li>
-							<li class="large">
+							<li class="large active_nav">
 								<a href="project.html">作品一览</a>
 							</li>
 							<li  class="large">
@@ -34,11 +34,14 @@
 								<a href="aboutus.html">关于我们</a>
 							</li>
 							<li class="small">
-								<button onclick="openNav()">&#9776;</button>
+								<button class='nav_button' onclick="openNav()">&#9776;</button>
 							</li>
 						</ul>
 
 					</div>
+				</div>
+				<div class="col-md-12" id='main_pic2'>
+					<h2 class='js_title white'>我们的作品</h2>
 				</div>
 			</div>
 <!-- 		end of 标题与导航栏        -->
@@ -66,8 +69,8 @@
 				</div>
 				<br>
 				<div class="row">
-					<div class='col-md-3 col-xs-6 col-sm-3'><img class='full_width_img' src="http://lorempixel.com/140/140/">
-					<p class='proj_name'>作品名</p></div>
+					<div class='col-md-3 col-xs-6 col-sm-3'><img class='full_width_img' src="img/proj_1.png">
+					<p class='proj_name'>划重点｜看看2017年政府的钱准备怎么花</p></div>
 					<div class='col-md-3 col-xs-6 col-sm-3'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
 					<div class='col-md-3 col-xs-6 col-sm-3'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
 					<div class='col-md-3 col-xs-6 col-sm-3'><img class='full_width_img' src="http://lorempixel.com/140/140/"><p class='proj_name'>作品名</p></div>
@@ -85,23 +88,25 @@
 <!-- 		具体作品1       -->
 			<div class='project-container'>
 				<div class="row">
-					<div class="col-md-12 project_long_img"><img class='full_width_img project_title_img' src="http://lorempixel.com/1920/400/">
-					<h3 class='project_title_text'>作 品 名 称</h3>
+					<div class="col-md-12 project_long_img"><img class='full_width_img project_title_img' src="img/proj_1_long.png">
+					<h3 class='project_title_text'>划重点｜看看2017年政府的钱准备怎么花</h3>
 					</div>
-					<div class="col-md-12 project_long_img_small"><img class='full_width_img project_title_img' src="http://lorempixel.com/800/400/">
-					<h3 class='project_title_text'>作 品 名 称</h3>
+					<div class="col-md-12 project_long_img_small"><img class='full_width_img project_title_img' src="img/proj_1_long_mobile.png">
+					<h3 class='project_title_text'>划重点｜看看2017年政府的钱准备怎么花</h3>
 					</div>
 				</div>
 				<div class="row project_content">
 					<div class="col-md-12">
 						<h4>关于作品</h4>
 						<p>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-						</p>
-						<h4>合作伙伴</h4>
+							人一辈子都离不开财政，小到个人衣食住行，大到国家经济运行、“神十一”上天……大事小事背后都有财政资金的影子。今年全国两会，正在审议讨论2017年财政预算报告，也就是俗称的“国家账本”。
+							<br>今年政府的钱哪些会花在你和家人身上呢？
+							<br>教育、医疗、住房、就业、社保、养老，你关心的都在这三分钟的视频里。</p>
+							<p>
+							<a href='https://mp.weixin.qq.com/s?__biz=MzA4NDI3NjcyNA==&mid=2649348612&idx=1&sn=2b77e91f375dc25f5a8904a516dffc2d&key=eabf22105000e1b1fa2ddb113310aab1e606406ceb8cc66dc37b8a00e1ee2d746c3149b960ac8b182bdb34a196d262991065c3215826440f6998629e48b68c5d75092d9a93c267b75ade4fd9d2b30df2&ascene=0&uin=MjI5NDUxNjg2MA%3D%3D&devicetype=iMac16%2C2+OSX+OSX+10.12.3+build(16D32)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=oT1tfw%2BietF1yOeeloXqeqP5w1ZveigXrikjoZua3eEWT4VJ9axqDg2S9sBznrzi'>作品链接</a>
+							</p>
 						<p>
-							Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+							合作伙伴 | 新华社
 						</p>
 					</div>
 				</div>
@@ -161,6 +166,6 @@
 
 	<script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-<!--     <script src="js/scripts.js"></script> -->
+    <script src="js/scripts.js"></script>
 	<script src="js/sidebar.js"></script>
 </html>

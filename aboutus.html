@@ -14,7 +14,7 @@
 		<div class="container-fluid" id='container_custom'>
 <!-- 		标题与导航栏        -->
 			<div class="row" id='main_title'>
-				<div class="col-md-12">
+				<div class="col-md-12" id='top_nav'>
 					<img src="img/logo_title2.png" class='title_img'>
 					<div id='sticky'>
 						<ul class="nav nav-tabs">
@@ -24,21 +24,24 @@
 							<li class="large">
 								<a href="project.html">作品一览</a>
 							</li>
-							<li class="large">
+							<li  class="large">
 								<a href="event.html">过往活动</a>
 							</li>
 							<li class="large">
 								<a href="service.html">主要业务</a>
 							</li>
-							<li class="large">
+							<li class="large active_nav">
 								<a href="aboutus.html">关于我们</a>
 							</li>
 							<li class="small">
-								<button onclick="openNav()">&#9776;</button>
+								<button class='nav_button' onclick="openNav()">&#9776;</button>
 							</li>
 						</ul>
 
 					</div>
+				</div>
+				<div class="col-md-12" id='main_pic5' >
+					<h2 class='js_title white'>与我们联系</h2>
 				</div>
 			</div>
 <!-- 		end of 标题与导航栏        -->
@@ -191,6 +194,6 @@
 
 	<script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-<!--     <script src="js/scripts.js"></script> -->
+    <script src="js/scripts.js"></script>
 	<script src="js/sidebar.js"></script>
 </html>

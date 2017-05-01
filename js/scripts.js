@@ -1,22 +1,15 @@
 // Empty JS for your own code to be here
 
-function sticky_relocate() {
-    var window_top = $(window).scrollTop();
-    var div_top = $('#sticky-anchor').offset().top;
-    if (window_top > div_top) {
-        $('#sticky').addClass('stick');
-        $('#sticky-anchor').height($('#sticky').outerHeight());
-    } else {
-        $('#sticky').removeClass('stick');
-        $('#sticky-anchor').height(0);
-    }
-}
 
-$(function() {
-    $(window).scroll(sticky_relocate);
-    sticky_relocate();
+$(document).ready(function(){
+    
+    $("h2.js_title")
+      .css('opacity', 0)
+      .slideDown(1000)
+      .animate(
+        { opacity: 1 },
+        { queue: false, duration: 2000 }
+      );
+    
 });
 
-var dir = 1;
-var MIN_TOP = 200;
-var MAX_TOP = 350;
