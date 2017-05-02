@@ -364,7 +364,7 @@
 
 @media all and (max-width: 420px) {
 	img.title_img{
-		width:40%;
+		width:30%;
 		padding-left: 1%;
 		padding-top:5%;
 		float:left;
@@ -479,7 +479,7 @@
 		position:fixed;
 		background-color:white;
 		z-index:20;
-		height:110px;
+		height:100px;
 	}
 
 	div#main_pic,
@@ -487,7 +487,7 @@
 	div#main_pic3,
 	div#main_pic4,
 	div#main_pic5{
-		margin-top:110px;
+		margin-top:100px;
 		height:130px;
 		margin-bottom:10px;
 	}
