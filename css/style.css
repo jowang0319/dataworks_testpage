@@ -6,7 +6,7 @@
              "WenQuanYi Micro Hei", sans-serif;
 	}
 	
-	h3{
+	h3,h4{
 		font-family: "STKaiti",
               sans-serif;
 	}
@@ -300,8 +300,8 @@
 		text-align: center;
 	}
 
-	span.representative_work{
-		float:right;
+	p.representative_work{
+		text-align:right;
 	}
 
 	button.nav_button{
@@ -352,6 +352,12 @@
 
 	a{
 		color:#C69C6C;
+	}
+
+	div#location_map{
+		width:90%;
+		margin:auto;
+		height:200px;
 	}
 
 
@@ -471,7 +477,7 @@
 		position:fixed;
 		background-color:white;
 		z-index:20;
-		height:100px;
+		height:110px;
 	}
 
 	div#main_pic,
@@ -479,8 +485,9 @@
 	div#main_pic3,
 	div#main_pic4,
 	div#main_pic5{
-		margin-top:100px;
+		margin-top:110px;
 		height:130px;
+		margin-bottom:10px;
 	}
 
 	img.circle_img{
@@ -492,6 +499,10 @@
 		padding-top:30px;
 		line-height:130%;
 		font-size:20px;
+	}
+
+	div#second_in_two{
+		margin-top:20px;
 	}
 
 }
@@ -747,6 +758,12 @@
 	h2.js_title{
 		margin-top:120px;
 		line-height:130%;
+	}
+
+	div#location_map{
+		width:50%;
+		margin:auto;
+		height:300px;
 	}
 
 
