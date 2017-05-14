@@ -360,6 +360,9 @@
 		height:200px;
 	}
 
+	.leaflet-top{
+		z-index:998;
+	}
 
 
 @media all and (max-width: 420px) {
@@ -440,7 +443,7 @@
 	    height: 100%;
 	    width: 0;
 	    position: fixed;
-	    z-index: 99;
+	    z-index: 1000;
 	    top: 0;
 	    right: 0;
 	    background-color: #111;
@@ -478,7 +481,7 @@
 		border-bottom: 1px solid #C69C6C;
 		position:fixed;
 		background-color:white;
-		z-index:20;
+		z-index:999;
 		height:100px;
 	}
 
@@ -595,7 +598,7 @@
 	    height: 100%;
 	    width: 0;
 	    position: fixed;
-	    z-index: 99;
+	    z-index: 1000;
 	    top: 0;
 	    right: 0;
 	    background-color: #111;
@@ -639,7 +642,7 @@
 		border-bottom: 1px solid #C69C6C;
 		position:fixed;
 		background-color:white;
-		z-index:20;
+		z-index:999;
 		height:140px;
 	}
 
@@ -741,7 +744,7 @@
 		border-bottom: 1px solid #C69C6C;
 		position:fixed;
 		background-color:white;
-		z-index:99;
+		z-index:999;
 	}
 
 	div#main_pic,

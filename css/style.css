@@ -110,6 +110,10 @@
 		border-bottom: 0;
 	}
 
+	.leaflet-top{
+		z-index:998;
+	}
+
 	div#main_title{
 		background-color:white;
 		
@@ -440,7 +444,7 @@
 	    height: 100%;
 	    width: 0;
 	    position: fixed;
-	    z-index: 99;
+	    z-index: 1000;
 	    top: 0;
 	    right: 0;
 	    background-color: #111;
@@ -478,7 +482,7 @@
 		border-bottom: 1px solid #C69C6C;
 		position:fixed;
 		background-color:white;
-		z-index:20;
+		z-index:999;
 		height:100px;
 	}
 
@@ -595,7 +599,7 @@
 	    height: 100%;
 	    width: 0;
 	    position: fixed;
-	    z-index: 99;
+	    z-index: 1000;
 	    top: 0;
 	    right: 0;
 	    background-color: #111;
@@ -639,7 +643,7 @@
 		border-bottom: 1px solid #C69C6C;
 		position:fixed;
 		background-color:white;
-		z-index:20;
+		z-index:999;
 		height:140px;
 	}
 
@@ -741,7 +745,7 @@
 		border-bottom: 1px solid #C69C6C;
 		position:fixed;
 		background-color:white;
-		z-index:99;
+		z-index:999!important;
 	}
 
 	div#main_pic,
@@ -770,6 +774,7 @@
 		width:50%;
 		margin:auto;
 		height:300px;
+		z-index:1;
 	}
 
 
