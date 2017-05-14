@@ -360,7 +360,7 @@
 		height:200px;
 	}
 
-	.leaflet-top{
+	.leaflet-top,.leaflet-bottom{
 		z-index:998;
 	}
 
